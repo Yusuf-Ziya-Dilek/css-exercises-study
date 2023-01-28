@@ -1,0 +1,16 @@
+.red-back {
+    background-color: red;
+    font-size: 25px;
+}
+
+#second {
+    color: blue;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.fourth {
+    background-color: greenyellow;
+    font-size: 25px;
+    font-weight: bold;
+}
