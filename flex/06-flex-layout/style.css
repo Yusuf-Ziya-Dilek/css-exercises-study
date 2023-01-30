@@ -25,3 +25,59 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:hover, a:visited, a:link, a:active {
+  color:#666;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer {
+  background: #eee;
+}
+
+.left-links {
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+}
+
+.right-links {
+  display: flex;
+  gap: 15px;
+  margin-right: 10px;
+}
